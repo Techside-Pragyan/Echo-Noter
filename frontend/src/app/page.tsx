@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Play, BookOpen, Brain, Sparkles, CheckCircle, Youtube } from "lucide-react";
+import { ArrowRight, Play, BookOpen, Brain, Sparkles, CheckCircle, Video } from "lucide-react";
 
 export default function Home() {
   const [videoUrl, setVideoUrl] = useState("");
@@ -81,7 +81,7 @@ export default function Home() {
             className="max-w-2xl mx-auto relative flex items-center"
           >
             <div className="absolute left-4 text-gray-500">
-              <Youtube className="w-6 h-6" />
+              <Video className="w-6 h-6" />
             </div>
             <input 
               type="url" 
